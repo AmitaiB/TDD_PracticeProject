@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Expecta+OCMock.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Expecta.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>OCMock.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TDD_PracticeProjectTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Specta.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>04597C2526073C5F23F3C77DA85442DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F501FE84845EAD97B9087DAFCBBEE0E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8350A4A35FA9212E2659AED8B33CF4EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87EBF25D3FC38B2899EA2C89B8C573D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9D4CB40984A35E46F8E51CBA5EF0B851</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
