@@ -11,7 +11,16 @@
 @implementation NSString (Reversed)
 
 -(NSString *)reversedString {
-    return @"gnirts elpmaxe";
+    NSMutableString *reversedString = [NSMutableString new];
+    
+    NSRange range = NSMakeRange(0, [self length]);
+    NSStringEnumerationOptions options = (NSStringEnumerationReverse | NSStringEnumerationByComposedCharacterSequences);
+    
+    [self enumerateSubstringsInRange:range options:options usingBlock:^(NSString * _Nullable substring, NSRange substringRange, NSRange enclosingRange, BOOL * _Nonnull stop) {
+        [reversedString appendString:substring];
+    }];
+    
+    return [reversedString copy];
 }
 
 @end
