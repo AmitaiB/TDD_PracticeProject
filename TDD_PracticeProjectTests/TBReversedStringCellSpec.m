@@ -27,6 +27,18 @@ describe(@"TBReversedStringCell", ^{
         
         [stringMock verify];
     });
+    
+    
+    it(@"sets a string value on the internal label", ^{
+        TBReversedStringCell *cell = [TBReversedStringCell new];
+        id labelMock = [OCMockObject mockForClass:[UILabel class]];
+        cell.reverseLabel = labelMock;
+        [[labelMock expect] setText:@"gnirts elpmaxe"];
+        
+        [cell setReversedText:@"example string"];
+        
+        [labelMock verify];
+    });
 });
 
 SpecEnd

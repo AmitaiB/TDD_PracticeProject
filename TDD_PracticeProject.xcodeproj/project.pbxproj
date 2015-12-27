@@ -18,6 +18,7 @@
 		388EAF471C2C37E4002AB490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388EAF451C2C37E4002AB490 /* LaunchScreen.storyboard */; };
 		388EAF521C2C37E4002AB490 /* TDD_PracticeProjectTestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 388EAF511C2C37E4002AB490 /* TDD_PracticeProjectTestSpec.m */; };
 		388EAF5D1C2C37E4002AB490 /* TDD_PracticeProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 388EAF5C1C2C37E4002AB490 /* TDD_PracticeProjectUITests.m */; };
+		38C024491C2F753A0071422E /* FibonacciSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C024481C2F753A0071422E /* FibonacciSpec.m */; };
 		38EFB0341C2CDAAF00102916 /* TBReversedStringCellSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EFB0331C2CDAAF00102916 /* TBReversedStringCellSpec.m */; };
 		38EFB0371C2CDBA500102916 /* TBReversedStringCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EFB0361C2CDBA500102916 /* TBReversedStringCell.m */; };
 		7E65C370E7A5A5259D183FEF /* libPods-TDD_PracticeProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16DEC6E19555AD1C3C3D8D3E /* libPods-TDD_PracticeProjectTests.a */; };
@@ -63,6 +64,7 @@
 		388EAF581C2C37E4002AB490 /* TDD_PracticeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDD_PracticeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		388EAF5C1C2C37E4002AB490 /* TDD_PracticeProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDD_PracticeProjectUITests.m; sourceTree = "<group>"; };
 		388EAF5E1C2C37E4002AB490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C024481C2F753A0071422E /* FibonacciSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FibonacciSpec.m; sourceTree = "<group>"; };
 		38EFB0331C2CDAAF00102916 /* TBReversedStringCellSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBReversedStringCellSpec.m; sourceTree = "<group>"; };
 		38EFB0351C2CDBA500102916 /* TBReversedStringCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBReversedStringCell.h; sourceTree = "<group>"; };
 		38EFB0361C2CDBA500102916 /* TBReversedStringCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBReversedStringCell.m; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				38139ED41C2C57C2006AA08B /* NSString+ReversedSpec.m */,
 				388EAF531C2C37E4002AB490 /* Info.plist */,
 				38EFB0331C2CDAAF00102916 /* TBReversedStringCellSpec.m */,
+				38C024481C2F753A0071422E /* FibonacciSpec.m */,
 			);
 			path = TDD_PracticeProjectTests;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38139ED51C2C57C2006AA08B /* NSString+ReversedSpec.m in Sources */,
+				38C024491C2F753A0071422E /* FibonacciSpec.m in Sources */,
 				38EFB0341C2CDAAF00102916 /* TBReversedStringCellSpec.m in Sources */,
 				38139ED81C2C6343006AA08B /* NSString+Reversed.m in Sources */,
 				388EAF521C2C37E4002AB490 /* TDD_PracticeProjectTestSpec.m in Sources */,
